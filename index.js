@@ -3,6 +3,8 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
+console.log('test');
+
 // Basic Configuration
 const port = process.env.PORT || 3000;
 
